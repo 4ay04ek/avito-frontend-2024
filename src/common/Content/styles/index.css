@@ -1,0 +1,11 @@
+.content {
+  width: 80%;
+  position: relative;
+}
+
+.loadingContent {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  color: white;
+}

@@ -1,0 +1,25 @@
+@import "./index.css";
+
+.back {
+  position: absolute;
+  top: -15px;
+}
+
+.poster {
+  margin: 0;
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.detailsMainBox {
+  width: 90%;
+}
+
+.reviewCard {
+  width: 90%;
+}
+
+.carousel {
+  max-height: 200px;
+}

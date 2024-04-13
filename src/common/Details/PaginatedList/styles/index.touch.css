@@ -1,0 +1,21 @@
+@import "./index.css";
+
+.paginatedCard {
+  width: 44%;
+  margin: 0.4em;
+}
+
+.paginatedRow {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.episodeImage {
+  height: 60px !important;
+  width: auto !important;
+}
+
+.episodeBox {
+  font-size: 13px;
+  margin: 4px;
+}

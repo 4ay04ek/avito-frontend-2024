@@ -1,0 +1,15 @@
+.paginatedRow {
+  width: 90vw;
+}
+
+.paginatedCard {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hidebtn {
+  display: none;
+}

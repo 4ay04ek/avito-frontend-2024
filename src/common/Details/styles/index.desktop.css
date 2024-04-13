@@ -1,0 +1,10 @@
+@import "./index.css";
+
+.poster {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}

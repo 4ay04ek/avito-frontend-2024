@@ -1,0 +1,31 @@
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 7070:7070
+
+  touch:
+    build: "."
+    volumes:
+      - ./src:/usr/app/src
+      - ./public:/usr/app/public
+    environment:
+      - TOKEN=${TOKEN}
+      - ENV_TYPE=touch
+      - PORT=7071
+    ports:
+      - 7071:7071
+
+  desktop:
+    build: "."
+    volumes:
+      - ./src:/usr/app/src
+      - ./public:/usr/app/public
+    environment:
+      - TOKEN=${TOKEN}
+      - ENV_TYPE=desktop
+      - PORT=7072
+    ports:
+      - 7072:7072

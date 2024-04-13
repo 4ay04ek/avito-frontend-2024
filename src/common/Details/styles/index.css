@@ -1,0 +1,96 @@
+.details {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  width: 100%;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.detailsMainBox {
+  width: 80%;
+}
+
+.rating {
+  font-size: 19px;
+}
+
+.rating div {
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  font-size: inherit;
+  color: currentColor;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  left: -30px;
+  color: white !important;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus {
+  right: -30px;
+  color: white !important;
+}
+
+.detailsOtherBox {
+  width: 100%;
+  align-items: center;
+}
+
+.reviewRow {
+  width: 90vw;
+}
+
+.reviewCard {
+  width: 50%;
+  margin: 15px;
+}
+
+.reviewText {
+  height: 320px;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+
+.carousel {
+  width: 90vw;
+  justify-content: center;
+}
+
+.slick-slide {
+  height: 500px;
+}
+
+.slick-slide > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.similarMovieCard {
+  margin: 0 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back {
+  position: absolute;
+  top: -10px;
+  left: 25px;
+}
+
+.back:hover {
+  color: rgb(182, 182, 182);
+}

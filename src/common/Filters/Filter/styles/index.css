@@ -1,0 +1,8 @@
+.ant-dropdown-menu {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.filterSelect {
+  width: 200px;
+}
